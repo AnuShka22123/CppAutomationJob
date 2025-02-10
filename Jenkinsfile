@@ -1,9 +1,9 @@
-﻿pipeline {
+pipeline {
     agent any
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/cpp_jenkins_demo.git'
+                git 'https://github.com/AnuShka22123/CppAutomationJob.git'
             }
         }
         stage('Build') {
